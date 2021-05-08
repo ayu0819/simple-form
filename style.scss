@@ -1,0 +1,101 @@
+body {
+    text-align: center;
+    margin: 0 auto;
+    background-color: rgb(248, 248, 248);
+    font-family: "ヒラギノ丸ゴ Pro W4", "ヒラギノ丸ゴ Pro", "Hiragino Maru Gothic Pro", "heisei-maru-gothic-std", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro";
+}
+
+h1 {
+    padding-top:1.5em;
+    color:#fd57ae;
+}
+
+input,
+button,
+select,
+textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  font: inherit;
+  outline: none;
+}
+
+textarea {
+  resize: vertical;
+}
+
+input[type='checkbox'],
+input[type='radio'] {
+  display: none;
+}
+
+input[type='submit'],
+input[type='button'],
+label,
+button,
+select {
+  cursor: pointer;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+input {
+    border: solid #fd57ae 0.15em;
+    color:#fd57ae;
+    border-radius: 1em;
+    display: block;
+    margin: 1em auto;
+    width: 100%;
+    max-width: 60em;
+    padding: 1em;
+    background-color: #fff;
+}
+
+select {
+    border: solid #fd57ae 0.15em;
+    border-radius: 1em;
+    color:#fd57ae ;
+    display: block;
+    margin: 1em auto;
+    width: 100%;
+    max-width: 60em;
+    padding: 1em;
+    background-color: #fff;
+}
+
+textarea {
+    border: solid #fd57ae 0.15em;
+    border-radius: 1em;
+    color:#fd57ae ;
+    display: block;
+    margin: 1em auto;
+    width: 100%;
+    max-width: 60em;
+    padding: 1em;
+    background-color: #fff;
+}
+
+.froms {
+    padding: 1em 0;
+}
+
+.form-area{
+    margin: 1.5em 0;
+}
+
+button {
+    background-color: #fd57ae;
+    color: #fff;
+    border-radius: 1em;
+    width: 100%;
+    max-width: 50em;
+    height: 5em;
+    display: block;
+    margin: 1em auto 0;
+}
